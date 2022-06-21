@@ -1,0 +1,50 @@
+{
+  "name": "bee-enrolled",
+  "version": "1.0.0",
+  "description": "BeeEnrolled is an education marketplace platform that offers online classes for students ages 4-18 as well as 1-on-1 tutoring sessions for students of the same ages.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "server": "node server.js",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "Raman Deep Bajwa",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mobile-detect": "^1.4.5",
+    "moment": "^2.29.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "next": "^12.1.6",
+    "nuka-carousel": "^5.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-dynamic-star": "^0.0.2",
+    "redux": "^4.2.0",
+    "semantic-ui-react": "^2.1.3",
+    "socket.io": "^4.5.1",
+    "styled-components": "^5.3.5",
+    "sweetalert2": "^11.4.18",
+    "sweetalert2-react-content": "^5.0.0",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.13.3",
+    "nodemon": "^2.0.16",
+    "react-router-dom": "^6.3.0",
+    "webpack": "^5.73.0"
+  }
+}

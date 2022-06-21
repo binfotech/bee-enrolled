@@ -1,0 +1,11 @@
+{
+    "PORT": 4002,
+    "BASE": "https://www.beeenrolled.com",
+    "DB": {
+        "connectionLimit": 100,
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "beeenrolled"
+    }
+}
