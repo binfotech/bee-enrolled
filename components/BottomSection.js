@@ -45,7 +45,7 @@ const BItemWrap = styled.div`
         flex-direction:column;
         row-gap:10px;
         & strong{
-            font-family:${fonts.openSans};
+            font-family:${fonts.openSans}, sans-serif;
             font-size:32px;
             line-height:28px;
             font-weight:700;
@@ -54,7 +54,7 @@ const BItemWrap = styled.div`
         & span{
             font-size:20px;
             font-family:${fonts.noah};
-            line-height:28px;
+            line-height:25px;
             font-weight:600;
             color: ${colors.txtColor};
         }

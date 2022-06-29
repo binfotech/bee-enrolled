@@ -17,5 +17,7 @@ module.exports = {
         {name:'Twitter',url:'#'},
         {name:'LinkedIn',url:'#'},
         {name:'Instagram',url:'#'}
-    ]
+    ],
+    fbAppId: '',
+    googleClientId: ''
 }

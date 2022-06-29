@@ -26,6 +26,7 @@ const PromotionDiv = styled.div`
     align-items: center;
     padding: 40px 48px;
     position: relative;
+    column-gap: 20px;
     & .left {
         flex: 1;
         display: flex;

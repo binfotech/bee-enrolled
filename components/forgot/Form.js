@@ -31,7 +31,7 @@ const Para = styled.p`
     color:${colors.textColor};
     font-size: 20px;
     line-height: 28px;
-    font-family: '${fonts.noah}';
+    font-family: ${fonts.noah};
     font-weight:600;
     margin: 0 0 25px;
 `;
@@ -54,7 +54,7 @@ const Button = styled.button`
     color:${colors.white};
     background: ${colors.primary};
     border-radius: 50px;
-    font-weight:500;
+    font-weight:600;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -10,7 +10,7 @@
     npm run build
 
 ### Run with production mode and Pm2
-    pm2 start npm --name "nvest" -- run start
+    pm2 start npm --name "benrolled" -- run start
 
 ### Run with developer mode
     npm run dev

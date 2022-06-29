@@ -31,7 +31,13 @@ const FooterInfoElements = styled.div`
     display:flex;
     flex-direction:column;
     flex: 1;
-    & p{color: ${colors.white};font-size: 14px;line-height:22px;font-family:${fonts.noah};}
+    & p{
+        color: ${colors.white};
+        font-size: 14px;
+        line-height:24px;
+        font-family:${fonts.noah};
+        margin:20px 0;
+    }
     & ul.social-media{
         list-style:none;
         margin:0;
@@ -67,7 +73,7 @@ const FooterLinkElements = styled.div`
     flex: 1;
     & h5{
         color: ${colors.white};
-        font-size: 18px;
+        font-size: 22px;
         line-height:28px;
         margin:0 0 25px;
         font-weight: 600;
@@ -83,7 +89,7 @@ const FooterLinkElements = styled.div`
             & a{
                 display:flex;
                 align-items:center;
-                font-size:16px;
+                font-size:18px;
                 line-height:35px;
                 font-family:${fonts.noah};
                 color:${colors.white};
@@ -101,7 +107,7 @@ const FooterContactElements = styled.div`
     flex: 1;
     & h5{
         color: ${colors.white};
-        font-size: 18px;
+        font-size: 22px;
         line-height:28px;
         margin:0 0 25px;
         font-weight: 600;
@@ -109,7 +115,7 @@ const FooterContactElements = styled.div`
     }
     & p{
         color: ${colors.white};
-        font-size: 16px;
+        font-size: 18px;
         line-height:22px;
         margin:0 0 15px;
         display:flex;

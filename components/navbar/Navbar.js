@@ -12,6 +12,7 @@ import Button from './../styled/Button';
 const NavWrapper = styled.div`
     padding:0 20px;
     box-sizing:border-box;
+    box-shadow: 0px 0px 20px #00000014;
 `;
 const Container = styled.div`
     max-width:1440px;
@@ -71,7 +72,8 @@ const NavLink = styled(Anchor)`
     cursor: pointer;
     line-height:40px;
     font-size:16px;
-    font-weight:500;
+    font-weight:600;
+    font-family: ${fonts.noah};
     color: ${colors.txtColor};
     :hover{
         color: ${colors.txtColor};
@@ -98,9 +100,10 @@ const Signup = styled(Anchor)`
     z-index:1;
     cursor: pointer;
     font-size:16px;
-    font-weight:500;
+    font-weight:600;
     padding: 12px 25px;
     border-radius: 25px;
+    font-family: ${fonts.noah};
     background: ${colors.primary};
     color: ${colors.white};
     display: flex;

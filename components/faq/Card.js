@@ -23,7 +23,7 @@ const CardWrap = styled.div`
         column-gap:20px;
         padding:20px;
         cursor:pointer;
-        font-family:${fonts.openSans};
+        font-family:${fonts.openSans}, sans-serif;
         font-weight:600;
     }
     & .description{

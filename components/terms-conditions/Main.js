@@ -34,7 +34,7 @@ const Breadcrumbs = styled.div`
         max-width: ${c.width};
         width:100%;
         color:${colors.white};
-        font-family:${fonts.openSans};
+        font-family:${fonts.openSans}, sans-serif;
         font-size:60px;
         font-weight:600;
         margin: 0 auto;
@@ -52,7 +52,7 @@ const Container = styled.div`
 const Para = styled.p`
     margin:0 0 20px;
     color:${colors.textColor};
-    font-family:${fonts.openSans};
+    font-family:${fonts.openSans}, sans-serif;
     font-size:16px;
     line-height:28px;
 `;

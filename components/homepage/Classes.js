@@ -41,20 +41,20 @@ const CourceWrap = styled.div`
         flex: 1;
         display: flex;
         flex-direction: column;
-        padding: 30px;
+        padding: 25px 30px;
         & .name{
-            font-size: 18px;
-            line-height: 25px;
+            font-size: 22px;
+            line-height: 26px;
             color: ${colors.textColor};
             font-weight: 600;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
             font-family: ${fonts.noah};
         }
         & .desc{
             font-size: 14px;
             line-height: 20px;
             color: ${colors.descColor};
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             font-weight: 600;
             font-family: ${fonts.noah};
         }
@@ -130,15 +130,15 @@ const Classes = () => {
                             <div className="name">Proin commodo, mi sed sodales vulputate.</div>
                             <div className="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae mollis mauris, eu semper erat. consectetur adipiscing elit...</div>
                             <div className="author-wrap">
-                                <img src="/images/user1.png" />
+                                <img src="/images/user1.png"/>
                                 <div className="author-details">
                                     <div className="author-name">Deborah Todd</div>
                                     <div className="author-rating">
-                                        <span class="fa fa-star checked" style={{color: "orange"}}>{" "}</span>
-                                        <span class="fa fa-star checked" style={{color: "orange"}}></span>
-                                        <span class="fa fa-star checked" style={{color: "orange"}}></span>
-                                        <span class="fa fa-star checked" style={{color: "orange"}}></span>
-                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked" style={{color: colors.primary}}></span>
+                                        <span class="fa fa-star checked" style={{color: colors.primary}}></span>
+                                        <span class="fa fa-star checked" style={{color: colors.primary}}></span>
+                                        <span class="fa fa-star checked" style={{color: colors.primary}}></span>
+                                        <span class="fa fa-star checked" style={{color: colors.input}}></span>
                                     </div>
                                 </div>
                             </div>
@@ -172,11 +172,11 @@ const Classes = () => {
                                 <div className="author-details">
                                     <div className="author-name">Deborah Todd</div>
                                     <div className="author-rating">
-                                        <span class="fa fa-star checked" style={{color: "orange"}}>{" "}</span>
-                                        <span class="fa fa-star checked" style={{color: "orange"}}></span>
-                                        <span class="fa fa-star checked" style={{color: "orange"}}></span>
-                                        <span class="fa fa-star checked" style={{color: "orange"}}></span>
-                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked" style={{color: colors.primary}}></span>
+                                        <span class="fa fa-star checked" style={{color: colors.primary}}></span>
+                                        <span class="fa fa-star checked" style={{color: colors.primary}}></span>
+                                        <span class="fa fa-star checked" style={{color: colors.primary}}></span>
+                                        <span class="fa fa-star checked" style={{color: colors.input}}></span>
                                     </div>
                                 </div>
                             </div>

@@ -35,7 +35,7 @@ const Breadcrumbs = styled.div`
         max-width: ${c.width};
         width: 100%;
         color: ${colors.white};
-        font-family:${fonts.openSans};
+        font-family:${fonts.openSans}, sans-serif;
         font-size: 60px;
         font-weight: 600;
         margin: 0 auto;
